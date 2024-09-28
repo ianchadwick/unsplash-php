@@ -19,6 +19,11 @@ class ArrayObject extends \ArrayObject
     private $pages = [];
 
     /**
+     * @var bool
+     */
+    private $pagesProcessed = false;
+
+    /**
      * @var array
      */
     private $basePages = [
